@@ -1,0 +1,21 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment
+.venv/
+env/
+venv/
+
+# Ignore Excel result/output files
+ClariScore_Results.xlsx
+~$*.xlsx  # Temporary Excel lock files
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings
+.idea/
+.vscode/
